@@ -11,3 +11,6 @@ ts:
 	done; \
 	echo "Creating file: $$FILENAME"; \
 	nvim "$$FILENAME"
+
+setup:
+	npm install -g tsx
